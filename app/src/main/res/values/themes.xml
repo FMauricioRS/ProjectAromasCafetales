@@ -1,9 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-
-
-
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
 
 
@@ -15,7 +13,8 @@
     </style>
 
     <style name="AppTheme.styleLogin" >
-        <item name="colorPrimary">@color/toolBarLogin</item>
+        <item name="colorPrimary">@color/statusBarLogin</item>
+        <item name="colorPrimaryDark">@color/toolBarLogin</item>
         <item name="colorPrimaryVariant">@color/statusBarLogin</item>
         <item name="colorAccent">@color/accentLogin</item>
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
