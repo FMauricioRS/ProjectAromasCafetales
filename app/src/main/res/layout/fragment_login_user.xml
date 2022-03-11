@@ -32,7 +32,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="16dp"
-            android:background="@color/toolBarLogin"
+            android:background="@drawable/button_radium"
             android:text="@string/sign_in"
             android:textAllCaps="false"
             android:textColor="@color/white"
