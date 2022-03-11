@@ -21,6 +21,7 @@ class RegisterUserFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
+        context?.theme?.applyStyle(R.style.AppTheme_styleRegister, true)
         registerUserBinding = FragmentRegisterUserBinding.inflate(inflater, container, false)
         registerUserViewModel = ViewModelProvider(this)[RegisterUserViewModel::class.java]
         return registerUserBinding.root

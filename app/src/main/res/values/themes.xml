@@ -16,6 +16,7 @@
 
     <style name="AppTheme.styleLogin" >
         <item name="colorPrimary">@color/toolBarLogin</item>
+        <item name="colorPrimaryDark">?attr/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/statusBarLogin</item>
         <item name="colorAccent">@color/accentLogin</item>
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
