@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/textura"
     android:theme="@style/AppTheme.styleRegister">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -11,26 +12,77 @@
         android:layout_height="wrap_content"
         tools:context=".ui.registeruser.RegisterUserFragment">
 
+        <ImageView
+            android:id="@+id/sectionTop"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:background="@drawable/container_buttom_corners_radium"
+            android:contentDescription="@string/todo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
+
+
+        <ImageView
+            android:id="@+id/sectionBot"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/container_top_corners_radium"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sectionTop" />
+
+        <ImageView
+            android:id="@+id/bkgroud_logo_image_view"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/circunferencia"
+            android:backgroundTint="@color/toolBarRegister"
+            android:contentDescription="@string/todo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/base_logo_image_view"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:background="@drawable/circunferencia"
+            android:backgroundTint="@color/borderRegister"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="@+id/bkgroud_logo_image_view"
+            app:layout_constraintEnd_toEndOf="@+id/bkgroud_logo_image_view"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/bkgroud_logo_image_view"
+            app:layout_constraintTop_toTopOf="@+id/bkgroud_logo_image_view"
+            tools:ignore="ImageContrastCheck" />
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/name_register_text_input_layout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/image_View_register">
+            app:layout_constraintTop_toBottomOf="@+id/bkgroud_logo_image_view">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/name_register_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:height="48dp"
                 android:hint="@string/name_register_user"
-                android:textColorHint="#757575"
                 tools:ignore="TextContrastCheck" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -124,7 +176,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
             android:text="@string/register_user_button"
@@ -137,16 +189,17 @@
             tools:ignore="TextContrastCheck" />
 
         <ImageView
-            android:id="@+id/image_View_register"
-            android:layout_width="307dp"
-            android:layout_height="167dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/papiro"
+            android:id="@+id/imageView4"
+            android:layout_width="167dp"
+            android:layout_height="220dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="@+id/base_logo_image_view"
+            app:layout_constraintEnd_toEndOf="@+id/base_logo_image_view"
+            app:layout_constraintHorizontal_bias="0.416"
+            app:layout_constraintStart_toStartOf="@+id/base_logo_image_view"
+            app:layout_constraintTop_toTopOf="@+id/base_logo_image_view"
+            app:layout_constraintVertical_bias="0.523"
+            app:srcCompat="@drawable/user"
             tools:ignore="ImageContrastCheck" />
 
 

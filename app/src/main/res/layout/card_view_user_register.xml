@@ -31,7 +31,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.516"
-                app:srcCompat="@drawable/user" />
+                 />
 
             <TextView
                 android:id="@+id/name_card_name_register_text_view"

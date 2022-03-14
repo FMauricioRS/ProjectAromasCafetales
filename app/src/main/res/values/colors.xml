@@ -2,6 +2,13 @@
 <resources>
 
 <!--mis colores-->
+    <!--colores logo -->
+    <color name="globoAzul">#3538c1</color>
+    <color name="globoMorado">#BA55D3</color>
+    <color name="globoAmarillo">#FFD700</color>
+    <color name="globoRosa">#FF69B4</color>
+
+
     <color name="statusBarGeneral">#673AB7</color>
     <color name="toolBarGeneral">#D1C4E9</color>
     <color name="accentGeneral">#009688</color>
@@ -11,9 +18,10 @@
     <color name="toolBarLogin">#8e24aa</color>
     <color name="accentLogin">#aa00ff</color>
 
-    <color name="statusBarResgister">#ffd54f</color>
-    <color name="toolBarRegister">#ffc107</color>
+    <color name="statusBarResgister">#897635</color>
+    <color name="toolBarRegister">#dab73c</color>
     <color name="accentRegister">#ffc400</color>
+    <color name="borderRegister">#b49011</color>
 <!--fin mis colores -->
 
 
