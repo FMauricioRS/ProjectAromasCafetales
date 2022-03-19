@@ -35,7 +35,7 @@
         <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_list_products.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_list_register.xml" value="0.35625" />
-        <entry key="app/src/main/res/layout/fragment_login_user.xml" value="0.35299073294018535" />
+        <entry key="app/src/main/res/layout/fragment_login_user.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_new_product.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_register_user.xml" value="0.33" />
       </map>
