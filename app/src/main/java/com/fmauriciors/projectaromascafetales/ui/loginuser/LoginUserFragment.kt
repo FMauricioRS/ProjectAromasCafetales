@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.fmauriciors.projectaromascafetales.R
 import com.fmauriciors.projectaromascafetales.databinding.FragmentLoginUserBinding
 
 class LoginUserFragment : Fragment() {
@@ -22,8 +23,10 @@ class LoginUserFragment : Fragment() {
     ): View? {
         loginUserBinding = FragmentLoginUserBinding.inflate(inflater, container, false)
         loginUserViewModel = ViewModelProvider(this)[LoginUserViewModel::class.java]
+        context?.theme?.applyStyle(R.style.AppTheme_styleLogin, true)
         return loginUserBinding.root
     }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

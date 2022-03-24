@@ -1,22 +1,13 @@
 package com.fmauriciors.projectaromascafetales.ui.registeruser
 
-import android.provider.ContactsContract
-import android.widget.Toast
-import androidx.core.content.ContentProviderCompat.requireContext
-import androidx.core.util.PatternsCompat
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.navigation.Navigation.findNavController
-import androidx.navigation.fragment.findNavController
 import com.fmauriciors.projectaromascafetales.databinding.FragmentRegisterUserBinding
-import com.fmauriciors.projectaromascafetales.ui.repositorybd.ProductRepository
-import com.fmauriciors.projectaromascafetales.ui.repositorybd.RegisterRepository
-import com.fmauriciors.projectaromascafetales.ui.splashac.SplashAcFragmentDirections
+import com.fmauriciors.projectaromascafetales.local.repositorybd.RegisterRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import java.util.regex.Pattern
 
 class RegisterUserViewModel : ViewModel() {
 

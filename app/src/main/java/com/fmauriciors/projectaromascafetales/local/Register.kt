@@ -1,4 +1,4 @@
-package com.fmauriciors.projectaromascafetales.ui.local
+package com.fmauriciors.projectaromascafetales.local
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

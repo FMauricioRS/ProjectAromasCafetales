@@ -1,8 +1,8 @@
-package com.fmauriciors.projectaromascafetales.ui.repositorybd
+package com.fmauriciors.projectaromascafetales.local.repositorybd
 
-import com.fmauriciors.projectaromascafetales.ui.RegisterProject
-import com.fmauriciors.projectaromascafetales.ui.local.Register
-import com.fmauriciors.projectaromascafetales.ui.local.RegisterDao
+import com.fmauriciors.projectaromascafetales.AromasCafetalesProyect
+import com.fmauriciors.projectaromascafetales.local.Register
+import com.fmauriciors.projectaromascafetales.local.RegisterDao
 import java.sql.Types.NULL
 
 class RegisterRepository {
@@ -23,7 +23,7 @@ class RegisterRepository {
             password = password
         )
 
-        val registerDao : RegisterDao = RegisterProject.database.RegisterDao()
+        val registerDao : RegisterDao = AromasCafetalesProyect.database.RegisterDao()
         registerDao.saveRegister(register)
     }
 
@@ -35,7 +35,7 @@ class RegisterRepository {
     }*/
 
     suspend fun loadRegisters(): ArrayList<Register>{
-        val registerDao: RegisterDao = RegisterProject.database.RegisterDao()
+        val registerDao: RegisterDao = AromasCafetalesProyect.database.RegisterDao()
         val registerList : ArrayList<Register> = registerDao.loadRegisters() as ArrayList<Register>
         return registerList
     }

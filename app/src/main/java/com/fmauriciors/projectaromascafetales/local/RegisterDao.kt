@@ -1,7 +1,6 @@
-package com.fmauriciors.projectaromascafetales.ui.local
+package com.fmauriciors.projectaromascafetales.local
 
 import androidx.room.Dao
-import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 

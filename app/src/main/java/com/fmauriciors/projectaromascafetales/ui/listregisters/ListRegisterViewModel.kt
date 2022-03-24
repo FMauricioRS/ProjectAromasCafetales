@@ -3,8 +3,8 @@ package com.fmauriciors.projectaromascafetales.ui.listregisters
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.fmauriciors.projectaromascafetales.ui.local.Register
-import com.fmauriciors.projectaromascafetales.ui.repositorybd.RegisterRepository
+import com.fmauriciors.projectaromascafetales.local.Register
+import com.fmauriciors.projectaromascafetales.local.repositorybd.RegisterRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

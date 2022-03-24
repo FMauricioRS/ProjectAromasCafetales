@@ -3,11 +3,10 @@ package com.fmauriciors.projectaromascafetales.ui.listproducts
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
 import com.fmauriciors.projectaromascafetales.R
 import com.fmauriciors.projectaromascafetales.databinding.CardViewItemProductBinding
-import com.fmauriciors.projectaromascafetales.ui.local.Product
+import com.fmauriciors.projectaromascafetales.local.Product
 import java.util.ArrayList
 
 class ProductsAdapter (

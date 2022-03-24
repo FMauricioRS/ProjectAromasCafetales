@@ -3,8 +3,8 @@ package com.fmauriciors.projectaromascafetales.ui.listproducts
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.fmauriciors.projectaromascafetales.ui.local.Product
-import com.fmauriciors.projectaromascafetales.ui.repositorybd.ProductRepository
+import com.fmauriciors.projectaromascafetales.local.Product
+import com.fmauriciors.projectaromascafetales.local.repositorybd.ProductRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

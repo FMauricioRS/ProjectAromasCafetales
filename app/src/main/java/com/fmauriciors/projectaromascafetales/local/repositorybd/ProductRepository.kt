@@ -1,8 +1,8 @@
-package com.fmauriciors.projectaromascafetales.ui.repositorybd;
+package com.fmauriciors.projectaromascafetales.local.repositorybd;
 
-import com.fmauriciors.projectaromascafetales.ui.ProductProject
-import com.fmauriciors.projectaromascafetales.ui.local.Product;
-import com.fmauriciors.projectaromascafetales.ui.local.ProductDao
+import com.fmauriciors.projectaromascafetales.AromasCafetalesProyect
+import com.fmauriciors.projectaromascafetales.local.Product;
+import com.fmauriciors.projectaromascafetales.local.ProductDao
 import java.sql.Types.NULL
 
 class ProductRepository {
@@ -21,23 +21,23 @@ class ProductRepository {
             resumePlantation = resumePlantation
         )
 
-        val productDao : ProductDao = ProductProject.database.ProductDao()
+        val productDao : ProductDao =AromasCafetalesProyect.database.ProductDao()
         productDao.saveProduct(product)
     }
 
     suspend fun searchProduct(nameProduct: String): Product {
-        val productDao: ProductDao = ProductProject.database.ProductDao()
+        val productDao: ProductDao =AromasCafetalesProyect.database.ProductDao()
         val  product = productDao.searchProduct(nameProduct)
         return product
     }
 
     suspend fun deleteProduct(product: Product) {
-        val productDao: ProductDao = ProductProject.database.ProductDao()
+        val productDao: ProductDao = AromasCafetalesProyect.database.ProductDao()
         productDao.deleteProduct(product)
     }
 
     suspend fun loadProducts(): ArrayList<Product>{
-        val productDao: ProductDao = ProductProject.database.ProductDao()
+        val productDao: ProductDao = AromasCafetalesProyect.database.ProductDao()
         val productList : ArrayList<Product> = productDao.loadProducts() as ArrayList<Product>
         return productList
     }

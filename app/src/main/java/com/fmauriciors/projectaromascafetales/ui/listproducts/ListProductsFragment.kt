@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.fmauriciors.projectaromascafetales.databinding.FragmentListProductsBinding
-import com.fmauriciors.projectaromascafetales.ui.local.Product
+import com.fmauriciors.projectaromascafetales.local.Product
 
 class ListProductsFragment : Fragment() {
 

@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.fmauriciors.projectaromascafetales.R
 import com.fmauriciors.projectaromascafetales.databinding.FragmentDeleteProductBinding
-import com.fmauriciors.projectaromascafetales.ui.local.Product
+import com.fmauriciors.projectaromascafetales.local.Product
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 class DeleteProductFragment : Fragment() {

@@ -2,21 +2,13 @@ package com.fmauriciors.projectaromascafetales.ui.listregisters
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.fmauriciors.projectaromascafetales.R
-import com.fmauriciors.projectaromascafetales.databinding.FragmentListProductsBinding
 import com.fmauriciors.projectaromascafetales.databinding.FragmentListRegisterBinding
-import com.fmauriciors.projectaromascafetales.ui.listproducts.ListProductsFragmentDirections
-import com.fmauriciors.projectaromascafetales.ui.listproducts.ListProductsViewModel
-import com.fmauriciors.projectaromascafetales.ui.listproducts.ProductsAdapter
-import com.fmauriciors.projectaromascafetales.ui.local.Product
-import com.fmauriciors.projectaromascafetales.ui.local.Register
+import com.fmauriciors.projectaromascafetales.local.Register
 
 class ListRegisterFragment : Fragment() {
 

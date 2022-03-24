@@ -59,7 +59,7 @@
         tools:layout="@layout/fragment_detail_product" >
         <argument
             android:name="product"
-            app:argType="com.fmauriciors.projectaromascafetales.ui.local.Product" />
+            app:argType="com.fmauriciors.projectaromascafetales.local.Product" />
     </fragment>
     <fragment
         android:id="@+id/favoriteFragment"
@@ -83,7 +83,7 @@
         tools:layout="@layout/fragment_list_register" >
         <argument
             android:name="register"
-            app:argType="com.fmauriciors.projectaromascafetales.ui.local.Register" />
+            app:argType="com.fmauriciors.projectaromascafetales.local.Register" />
     </fragment>
     <fragment
         android:id="@+id/detailRegisterFragment"

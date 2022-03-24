@@ -6,11 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 import com.fmauriciors.projectaromascafetales.R
-import com.fmauriciors.projectaromascafetales.databinding.CardViewItemProductBinding
 import com.fmauriciors.projectaromascafetales.databinding.CardViewUserRegisterBinding
-import com.fmauriciors.projectaromascafetales.ui.listproducts.ProductsAdapter
-import com.fmauriciors.projectaromascafetales.ui.local.Product
-import com.fmauriciors.projectaromascafetales.ui.local.Register
+import com.fmauriciors.projectaromascafetales.local.Register
 import java.util.ArrayList
 
 class RegistersAdapter (

@@ -2,19 +2,19 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 
-
+        <item name="colorPrimary">@color/toolBarGeneral</item>
+        <item name="colorPrimaryVariant">@color/statusBarGeneral</item>
+        <item name="colorSecondary">@color/accentGeneral</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
 
     </style>
 
 
     <style name="AppTheme.styleGeneral">
-        <item name="colorPrimary">@color/toolBarGeneral</item>
-        <item name="colorPrimaryVariant">@color/statusBarGeneral</item>
-        <item name="colorSecondary">@color/accentGeneral</item>
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
     </style>
 
-    <style name="AppTheme.styleLogin" >
+    <style name="AppTheme.styleLogin"  parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/toolBarLogin</item>
         <item name="colorPrimaryVariant">@color/statusBarLogin</item>
         <item name="colorAccent">@color/accentLogin</item>

@@ -2,8 +2,8 @@
 <resources>
 
 <!--mis colores-->
-    <color name="statusBarGeneral">#673AB7</color>
-    <color name="toolBarGeneral">#D1C4E9</color>
+    <color name="statusBarGeneral">#D1C4E9</color>
+    <color name="toolBarGeneral">#673AB7</color>
     <color name="accentGeneral">#009688</color>
     <color name="secundaryColor">#757575</color>
 

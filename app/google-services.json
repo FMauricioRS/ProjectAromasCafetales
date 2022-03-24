@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375598655803",
+    "project_id": "projectaromascafetales-622f9",
+    "storage_bucket": "projectaromascafetales-622f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375598655803:android:6b4f4b9a4addf155b2af1e",
+        "android_client_info": {
+          "package_name": "com.fmauriciors.projectaromascafetales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375598655803-qve2dkvflgcuu44rg4e612h3848t0vel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEWH2ZZkrL4Tq9TYScivV0dm3AG9PRNN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375598655803-qve2dkvflgcuu44rg4e612h3848t0vel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

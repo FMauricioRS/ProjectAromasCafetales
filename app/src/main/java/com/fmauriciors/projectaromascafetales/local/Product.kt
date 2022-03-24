@@ -1,10 +1,9 @@
-package com.fmauriciors.projectaromascafetales.ui.local
+package com.fmauriciors.projectaromascafetales.local
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.io.Serializable
-import java.sql.Types
 import java.sql.Types.NULL
 
 
